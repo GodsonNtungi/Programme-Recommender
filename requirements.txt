@@ -1,3 +1,4 @@
+tensorflow-recommenders
 tensorflow
 pandas
 numpy

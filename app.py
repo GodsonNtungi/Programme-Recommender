@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import tensorflow as tf
 import numpy as np
-import tensorflow_recommenders as tfrs
 
 data = pd.read_csv('Data/coursesData.csv')
 

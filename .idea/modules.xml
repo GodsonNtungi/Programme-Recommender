@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Learning/Finance Stream lit/.idea/Finance Stream lit.iml" filepath="$PROJECT_DIR$/../../Learning/Finance Stream lit/.idea/Finance Stream lit.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/RecommendationCourses.iml" filepath="$PROJECT_DIR$/.idea/RecommendationCourses.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../Learning/StreamLit/.idea/StreamLit.iml" filepath="$PROJECT_DIR$/../../Learning/StreamLit/.idea/StreamLit.iml" />
     </modules>
   </component>
 </project>

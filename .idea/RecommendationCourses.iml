@@ -4,6 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.9 (flaskProject)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="StreamLit" />
+    <orderEntry type="module" module-name="Finance Stream lit" />
   </component>
 </module>

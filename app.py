@@ -17,20 +17,23 @@ st.header('Programme Recommender')
 
 form = st.form(key='form')
 
-id = form.selectbox(label='Select course', options=data['id'], format_func=courseFunction)
-slider = form.slider('Number of courses',min_value=1,max_value=8,step=1,)
+course = form.selectbox(label='Select course', options=data['course'])
+slider = form.slider('Number of courses', min_value=1, max_value=10, step=1,)
 submit = form.form_submit_button()
 
 if submit:
     model = tf.keras.models.load_model('model')
-    _, titles = model(np.array([str(id)]))
+    _, titles = model(np.array([course]))
     courses = []
-    for i in range(1,len(titles[0,:])):
+
+    for i in range(0,len(titles[0,:])):
         word = str(titles[0,:][i])
         words = word.split("'")
-        courses.append(words[1])
+
+        if words[1] != course:
+            courses.append(words[1])
     remDupli = set()
-    courses = [course for course in courses if not (course in remDupli) or (remDupli.add(course))]
+    courses = [course for course in courses if not( (course in remDupli) or (remDupli.add(course)))]
     slider += 1
     if slider > len(courses):
         slider = len(courses)

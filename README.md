@@ -1,5 +1,5 @@
 # Programme-Recommender
-A recommender AI model that recommends  university programmes that relate to one specific programme
+A retrieval  recommender AI model that recommends  university programmes that relate to one specific programme
 
 link to the demo : https://godsonntungi-programme-recommender-app-70f2l9.streamlitapp.com/
 
